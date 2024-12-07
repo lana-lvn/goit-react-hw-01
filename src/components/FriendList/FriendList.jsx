@@ -8,9 +8,9 @@ const FriendList = ({friends}) => {
     console.log(friends);
     
     
-    return <ul>
+    return <ul className={styles.list}>
         {friends.map(friend => (
-          <li key={friend.id}>
+            <li className={styles.listItem} key={friend.id}>
                 <FriendListItem
                     avatar={friend.avatar}
                     name={friend.name}
