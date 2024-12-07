@@ -1,0 +1,68 @@
+.wrapper {
+  width: 500px;
+  height: auto;
+  border: 3px black solid;
+  border-radius: 2%;
+  background-color: rgb(250, 250, 250);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.personText {
+  color: rgb(128, 128, 128);
+  font-size: 25px;
+}
+
+.avatar {
+  width: 200px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.stats {
+  background-color: rgb(211, 211, 211);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.followers,
+.views,
+.likes {
+  border-top: 2px rgb(128, 128, 128) solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.followers,
+.views {
+  border-right: 2px rgb(128, 128, 128) solid;
+}
+
+.statsNum {
+  font-weight: 700;
+}

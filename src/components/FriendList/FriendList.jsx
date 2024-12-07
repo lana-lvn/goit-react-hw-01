@@ -1,7 +1,5 @@
 import FriendListItem from "../FriendListItem/FriendListItem";
-import styles from "./friendList.module.css";
-
-
+import styles from  "./friendList.module.css";
 
 
 

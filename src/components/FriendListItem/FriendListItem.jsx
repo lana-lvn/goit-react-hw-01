@@ -1,6 +1,8 @@
-const FriendListItem = ({avatar, name, status}) => {
+import styles from "./friendListItem.module.css";
+
+const FriendListItem = ({ avatar, name, status }) => {
     return <div>
-        <img src="avatar" alt="Avatar" width="48" />
+        <img src={avatar} alt="Avatar" width="48" />
         <p>{name}</p>
         <p>{status}</p>
     </div>;
